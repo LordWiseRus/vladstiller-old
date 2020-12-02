@@ -1,0 +1,7 @@
+User-agent: *
+
+Host: https://vladstiller.com
+
+Disallow: /404.html
+
+Sitemap: https://vladstiller.com/sitemap.xml

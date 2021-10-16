@@ -2,6 +2,7 @@ RewriteEngine On
 #RewriteCond %{HTTPS} !on
 #RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
+RewriteCond %{HTTPS} =on
 RewriteCond %{HTTP_HOST} vladstiller.com
 RewriteRule (.*) https://selyukov.ru/$1 [R=301,L]
 
